@@ -14,14 +14,7 @@ import {
 } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDwckAoUeNOvgeQ8mwchfY8rnok9Y-4Fx8",
-  authDomain: "shopping-app-fe966.firebaseapp.com",
-  projectId: "shopping-app-fe966",
-  storageBucket: "shopping-app-fe966.appspot.com",
-  messagingSenderId: "366687361449",
-  appId: "1:366687361449:web:3a3f194072c1226a664cb8",
-};
+const firebaseConfig = {};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
